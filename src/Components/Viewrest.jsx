@@ -23,7 +23,7 @@ const {id} = useParams()
 console.log(id);
 
   //API call to get details of the particular restaurant using path parameter
-  const base_url='https://doc-appointment-backend-ca9q.onrender.com/doctors'
+  const base_url='https://doc-back-wzau.onrender.com/doctors'
   const fetchDoc=async()=>{
     const result = await axios.get(`${base_url}/${id}`)
     console.log(result);

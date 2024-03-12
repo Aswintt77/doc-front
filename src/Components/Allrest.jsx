@@ -6,7 +6,7 @@ import './allrest.css'
 import myimage from './Medical Social Media Template Design - Made with PosterMyWall.jpg'
 
 function Allrest() {
-  const base_url='https://doc-appointment-backend-ca9q.onrender.com/doctors'
+  const base_url='https://doc-back-wzau.onrender.com/doctors'
   //to hold array of restaurant data
   const [AllrestData,setAllRestData] = useState([])
   // Api fetching
