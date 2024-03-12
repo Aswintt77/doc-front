@@ -1,0 +1,11 @@
+.mainee{
+    background-image: url(./pexels-karolina-grabowska-4386466.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: '100%';
+}
+.box1 {
+    background-color: #000;
+    color: #fff;
+    opacity: .9;
+  }
